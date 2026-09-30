@@ -1,0 +1,6 @@
+.product-image.catalog-crop{position:relative;overflow:hidden;aspect-ratio:1}
+.product-image.catalog-crop img{position:absolute;width:200%;height:200%;max-width:none;object-fit:fill;transform:none}
+.catalog-crop.crop-tl img{left:0;top:0}
+.catalog-crop.crop-tr img{left:-100%;top:0}
+.catalog-crop.crop-bl img{left:0;top:-100%}
+.catalog-crop.crop-br img{left:-100%;top:-100%}
